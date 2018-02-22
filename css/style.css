@@ -1,0 +1,80 @@
+body
+{
+	margin: 0;
+	background-color: #fff;
+	font-size: 18px;
+}
+
+header
+{
+display: block;
+height: 356px;
+background: url(../img/main_pic.jpg) no-repeat center bottom;
+}
+
+.row_menue
+{
+
+	position:absolute;
+	top:0px;
+	left:0px;
+	opacity: 0.6;
+
+}
+
+.photos
+{
+	padding-top: 30px;
+}
+
+.row_menue:hover
+{
+	opacity: 0.75;
+}
+.im1, .im2, .im3
+{
+	display: inline-block;
+
+}
+
+
+@media(max-width: 375px)
+{
+header
+{
+display: block;
+height: 136px;
+background: url(../img/main_iphone.jpg) no-repeat center bottom;
+}
+.row_menue
+{
+	height: 30px;
+}
+.photos
+{
+	
+	margin: 30px;
+}
+.line-photos2
+{
+	
+	padding-top:  15px;
+}
+
+.im1, .im2, .im3, .im4, .im5, .im6
+{	
+	
+	width: 85px;
+	height: 85px;
+	
+	
+}
+
+
+}
+
+
+
+
+
+
